@@ -1,4 +1,4 @@
-import Card from './components/Card'
+import Card from '../components/Card'
 import projectsData from '@/data/homeCard'
 console.log('projectsData', projectsData)
 export default function HomeIndex() {
