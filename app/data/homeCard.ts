@@ -12,7 +12,7 @@ const projectsData: Item[] = [
   },
   {
     title: 'Blog',
-    desc: 'Write some articles',
+    desc: 'Write some articles and posts',
     href: '/blog'
   },
   {
