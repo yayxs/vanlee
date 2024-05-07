@@ -1,6 +1,5 @@
 import Card from './components/Card'
 import projectsData from '@/data/homeCard'
-console.log('projectsData', projectsData)
 export default function HomeIndex() {
   return (
     <div className='flex justify-center items-center h-screen'>

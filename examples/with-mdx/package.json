@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "dev": "next"
+  },
+  "dependencies": {
+    "@mdx-js/loader": "^3.0.1",
+    "@mdx-js/react": "^3.0.1",
+    "@next/mdx": "^14.2.3",
+    "next": "14.2.3",
+    "next-mdx-remote": "^4.4.1",
+    "next-remote-watch": "^2.0.0",
+    "react": "^18",
+    "react-dom": "^18"
+  }
+}

@@ -24,9 +24,7 @@ async function CustomComponent() {
 export default function Template({ children }: { children: React.ReactNode }) {
   const [text, setText] = useState('')
 
-  useEffect(() => {
-    console.log('count 123')
-  }, [])
+  useEffect(() => {}, [])
 
   return (
     <div className='p-5'>
