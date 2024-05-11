@@ -11,7 +11,14 @@ module.exports = {
   ],
   darkMode: ['class'],
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        primary: '#4A6CF7'
+      },
+      boxShadow: {
+        signUp: '0px 5px 10px rgba(4, 10, 34, 0.2)'
+      }
+    }
   },
   plugins: [require('@tailwindcss/typography')]
 }
