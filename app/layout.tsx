@@ -3,6 +3,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import { Providers } from './providers'
 import ScrollToTop from '@/components/ScrollToTop'
+import Header from '@/components/Header'
 interface RootLayoutProps {
   children: React.ReactNode
 }
@@ -21,6 +22,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <head />
         <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
           <Providers>
+            <Header />
             <ScrollToTop />
           </Providers>
         </body>
