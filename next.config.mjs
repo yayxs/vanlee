@@ -16,7 +16,7 @@ const nextConfig = {
 
 // const {  } = require('next-contentlayer')
 
-import { withContentlayer } from 'next-contentlayer'
+import { withContentlayer } from 'next-contentlayer2'
 
 export default withContentlayer(nextConfig)
 

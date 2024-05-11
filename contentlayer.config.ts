@@ -1,9 +1,13 @@
-import { defineDocumentType, makeSource } from 'contentlayer/source-files'
+import {
+  defineDocumentType,
+  makeSource,
+  ComputedFields
+} from 'contentlayer2/source-files'
 import remarkGfm from 'remark-gfm'
 import rehypePrismPlus from 'rehype-prism-plus'
 
 /** @type {import('contentlayer/source-files').ComputedFields} */
-const computedFields = {
+const computedFields: ComputedFields = {
   slug: {
     type: 'string',
     resolve: (doc) => `/${doc._raw.flattenedPath}`

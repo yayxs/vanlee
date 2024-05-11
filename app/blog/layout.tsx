@@ -15,6 +15,7 @@ export default function BlogLayout({ children }: LayoutProps) {
             <div className='flex items-center justify-between'>
               <nav className='ml-auto text-sm font-medium space-x-6 mr-7'>
                 <Link href='/'>Home</Link>
+                <Link href='/blog/html'>HTML</Link>
                 <Link href='/blog/about-blog'>About</Link>
               </nav>
               <ModeToggle />
