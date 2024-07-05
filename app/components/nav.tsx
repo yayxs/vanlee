@@ -1,5 +1,3 @@
-import Link from 'next/link'
-
 const navItems = {
   '/': {
     name: 'home'
@@ -12,6 +10,15 @@ const navItems = {
   }
 }
 
-export function Navbar() {
-  return <aside>123</aside>
+export function Nav() {
+  return (
+    <section>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>CSS</li>
+        <li>AI</li>
+      </ul>
+    </section>
+  )
 }
